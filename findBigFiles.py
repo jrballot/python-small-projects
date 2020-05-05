@@ -30,7 +30,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description="Find big files on you running system")
   parser.add_argument('PATH', type=str ,help='Base path to check files size.')
   parser.add_argument('-t','--top', type=int ,help='Return the TOP N biggest files.')
-  parser.add_argument('-so','--sizeover', type=str ,help='Specify the minimum size of files to return. Need to be nM,nG.')
+  parser.add_argument('-so','--sizeover', type=str ,help="Only return files over specified size. For example: 1M, 10M, 100M, 1G, 10G, 100G.")
   args = parser.parse_args()
   magnitude = {'M':1048576,'G':1073741824}
   sizeOver = 1  
