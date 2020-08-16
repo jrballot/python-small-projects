@@ -6,3 +6,5 @@ to develop some programming concepts related to Performance, Clean Code and Comp
 
 Projects:
 - **findBigFiles.py**: Used for checking all the large files on my system. 
+- **mongodbReport.py**: Simple script to collect informations about a MongoDB instance (WIP)
+- **punchingTheClock.py**: I always forget to punch in or out of office (WIP)
